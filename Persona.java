@@ -10,7 +10,7 @@ public class Persona{
 		}
 		//Duerme, respira, camina, etc etc.
 		public void dormir(int tiempo){
-			System.out.println("La persona "+nombre+" esta durmiendo");
+			System.out.println("La persona "+nombre+" esta durmiendo ");
 			energia= energia+tiempo;
 			System.out.println(energia);
 		}
